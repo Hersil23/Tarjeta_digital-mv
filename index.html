@@ -79,8 +79,8 @@
         /* Tarjeta principal - Optimizada para móviles */
         .card {
             width: 100%;
-            max-width: 350px;
-            min-height: 560px;
+            max-width: 420px;
+            min-height: 720px;
             /* Nuevo fondo que combina con el espacio */
             background: linear-gradient(135deg, 
                 rgba(30, 41, 59, 0.95) 0%, 
@@ -95,7 +95,7 @@
                 inset 0 1px 0 rgba(255, 255, 255, 0.1);
             overflow: hidden;
             text-align: center;
-            padding: 20px 18px;
+            padding: 35px 25px;
             animation: gradientMove 8s ease infinite;
             position: relative;
             z-index: 10;
@@ -125,14 +125,14 @@
         }
 
         .head .circle {
-            width: 110px;
-            height: 110px;
+            width: 140px;
+            height: 140px;
             border-radius: 50%;
             overflow: hidden;
             box-shadow: 
                 0 4px 20px rgba(59, 130, 246, 0.6),
                 0 0 0 3px rgba(59, 130, 246, 0.3);
-            margin: 0 auto 12px;
+            margin: 0 auto 22px;
             border: 3px solid #3b82f6;
             transition: all 0.3s ease;
             animation: float 4s ease-in-out infinite;
@@ -178,18 +178,18 @@
         }
 
         .description h3 {
-            margin: 10px 0 5px;
+            margin: 18px 0 10px;
             color: #e2e8f0;
-            font-size: 1.8em;
+            font-size: 2.1em;
             font-weight: 700;
             text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
             letter-spacing: 0.5px;
         }
 
         .description h4 {
-            margin: 3px 0 10px;
+            margin: 6px 0 18px;
             color: #60a5fa;
-            font-size: 0.95em;
+            font-size: 1.05em;
             font-weight: 500;
             text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
             white-space: nowrap;
@@ -197,30 +197,30 @@
 
         .description p {
             color: #cbd5e1;
-            font-size: 14px;
-            line-height: 1.5;
-            margin-bottom: 12px;
+            font-size: 15.5px;
+            line-height: 1.65;
+            margin-bottom: 22px;
             text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-            padding: 0 5px;
+            padding: 0 8px;
         }
 
         /* Enlaces de redes sociales */
         .social-links {
             display: flex;
             flex-direction: column;
-            gap: 8px;
-            margin-top: 12px;
+            gap: 14px;
+            margin-top: 22px;
         }
 
         .social-link {
             display: flex;
             align-items: center;
             justify-content: flex-start;
-            padding: 10px 14px;
+            padding: 16px 20px;
             background: rgba(51, 65, 85, 0.6);
             backdrop-filter: blur(10px);
             border: 1px solid rgba(148, 163, 184, 0.2);
-            border-radius: 12px;
+            border-radius: 14px;
             color: white;
             text-decoration: none;
             transition: all 0.3s ease;
@@ -249,14 +249,14 @@
         }
 
         .social-link i {
-            font-size: 1.2em;
-            width: 24px;
-            margin-right: 12px;
+            font-size: 1.35em;
+            width: 28px;
+            margin-right: 14px;
             text-align: center;
         }
 
         .social-link span {
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 500;
         }
 
@@ -417,85 +417,96 @@
             
             .card {
                 max-width: 100%;
-                min-height: 540px;
-                padding: 18px 15px;
-                border-radius: 15px;
+                min-height: 700px;
+                padding: 30px 20px;
+                border-radius: 18px;
             }
             
             .head .circle {
-                width: 100px;
-                height: 100px;
-                margin-bottom: 10px;
+                width: 130px;
+                height: 130px;
+                margin-bottom: 18px;
             }
             
             .description h3 {
-                font-size: 1.6em;
-                margin: 8px 0 4px;
+                font-size: 2em;
+                margin: 15px 0 8px;
             }
             
             .description h4 {
-                font-size: 0.9em;
-                margin: 3px 0 8px;
+                font-size: 1em;
+                margin: 6px 0 15px;
             }
             
             .description p {
-                font-size: 13px;
-                margin-bottom: 10px;
-                line-height: 1.5;
+                font-size: 15px;
+                margin-bottom: 18px;
+                line-height: 1.6;
             }
             
             .social-links {
-                gap: 7px;
-                margin-top: 10px;
+                gap: 13px;
+                margin-top: 20px;
             }
             
             .social-link {
-                padding: 9px 12px;
+                padding: 15px 18px;
+            }
+            
+            .social-link i {
+                font-size: 1.3em;
+                width: 26px;
+                margin-right: 13px;
             }
             
             .social-link span {
-                font-size: 13px;
+                font-size: 14.5px;
             }
         }
 
         @media (max-width: 360px) {
             .card {
-                padding: 16px 12px;
-                min-height: 520px;
+                padding: 25px 16px;
+                min-height: 660px;
             }
             
             .head .circle {
-                width: 90px;
-                height: 90px;
-                margin-bottom: 8px;
+                width: 120px;
+                height: 120px;
+                margin-bottom: 15px;
             }
             
             .description h3 {
-                font-size: 1.5em;
-                margin: 6px 0 3px;
+                font-size: 1.85em;
+                margin: 12px 0 6px;
             }
             
             .description h4 {
-                font-size: 0.85em;
-                margin: 2px 0 6px;
+                font-size: 0.95em;
+                margin: 5px 0 12px;
             }
             
             .description p {
-                font-size: 12px;
-                margin-bottom: 8px;
+                font-size: 14px;
+                margin-bottom: 15px;
+            }
+            
+            .social-links {
+                gap: 11px;
             }
             
             .social-link {
-                padding: 8px 10px;
+                padding: 13px 15px;
             }
             
             .social-link i {
-                font-size: 1.1em;
-                margin-right: 10px;
+                font-size: 1.25em;
+                width: 24px;
+                margin-right: 12px;
             }
             
             .social-link span {
-                font-size: 12px;
+                font-size: 13.5px;
             }
         }
 
